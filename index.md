@@ -1,5 +1,7 @@
 # Today I Learned
 
+## Latest
+
 {% for post in site.posts %}
 
 <h3>
@@ -9,3 +11,7 @@
 </h3>
 
 {% endfor %}
+
+
+## Categories
+
