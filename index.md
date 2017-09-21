@@ -25,8 +25,12 @@
 
 {% assign category_names = category_names | sort %}
 
+<ul>
+
 {% for category_name in category_names %}
-<h3>
+<li>
   {{ category_name }}
-</h3>
+</li>
 {% endfor %}
+
+</ul>
