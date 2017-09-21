@@ -2,15 +2,17 @@
 
 ## Latest
 
+<ul>
+
 {% for post in site.posts %}
 
-<h3>
-  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  <br>
-  <small>[{{ post.date }}]</small>
-</h3>
+<li>
+  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<small>[{{ post.date }}]</small></a>
+</li>
 
 {% endfor %}
+
+</ul>
 
 
 ## Categories
